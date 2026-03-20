@@ -33,9 +33,10 @@
     </nav>
 
     <div id="sidebar-contact">
-      <a href="/cdn-cgi/l/email-protection#1662637778726375387e7778797f777b65303520222d717b777f7a3875797b">tuanduc.hanoiams&#64;gmail.com</a>
+      <a href="mailto:tuanduc.hanoiams&#64;gmail.com">tuanduc.hanoiams&#64;gmail.com</a>
       <a href="https://www.linkedin.com/in/tuanducchu" target="_blank">LinkedIn</a>
       <a href="https://github.com/bunschar" target="_blank">GitHub</a>
+      <span>+1 201 772 1721</span>
       <span>Hoboken, NJ</span>
     </div>
 
@@ -107,7 +108,7 @@
         <div class="entry-org">Department of Electrical &amp; Computer Engineering, Stevens Institute of Technology &mdash; <em>Instructor: Dr. Mahmoud Al-Quzwini</em></div>
         <ul>
           <li>Leading lab sections of 30+ undergraduate students in hands-on analog circuit construction, measurement, and debugging.</li>
-          <li>Training students on bench instrumentation including oscilloscopes, function generators, digital multimeters, and spectrum analyzers for circuit characterization and signal analysis.</li>
+          <li>Training students on bench instrumentation including oscilloscopes, function generators, and digital multimeters for circuit characterization and signal analysis.</li>
           <li>Supporting students in applying Kirchhoff's laws, Ohm's law, and nodal/mesh analysis to build and verify circuit behavior from schematic to physical implementation.</li>
           <li>Guiding circuit simulation workflows using computer-based tools to evaluate and predict circuit behavior prior to hardware experimentation.</li>
         </ul>
@@ -277,7 +278,15 @@
 
   </main>
 
-  <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+  <script>
     const navLinks = document.querySelectorAll('#sidebar-nav a');
     navLinks.forEach(link => {
-      link.addEventListener('click',
+      link.addEventListener('click', () => {
+        navLinks.forEach(l => l.classList.remove('active'));
+        link.classList.add('active');
+      });
+    });
+  </script>
+
+</body>
+</html>
