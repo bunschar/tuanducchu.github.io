@@ -19,7 +19,7 @@
     </div>
 
     <div id="sidebar-name">Tuan Duc Chu</div>
-    <div id="sidebar-sub">EE &amp; Applied Mathematics<br/>Schaefer School of Engineering &amp; Science<br/>Stevens Institute of Technology</div>
+    <div id="sidebar-sub">EE &amp; Applied Mathematics<br/>Schaefer School <em>of</em> Engineering &amp; Science<br/>Stevens Institute <em>of</em> Technology</div>
 
     <nav id="sidebar-nav">
       <a href="#about">About</a>
@@ -278,5 +278,15 @@
 
   </main>
 
-  <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
-    const navLinks = document.qu
+  <script>
+    const navLinks = document.querySelectorAll('#sidebar-nav a');
+    navLinks.forEach(link => {
+      link.addEventListener('click', () => {
+        navLinks.forEach(l => l.classList.remove('active'));
+        link.classList.add('active');
+      });
+    });
+  </script>
+
+</body>
+</html>
