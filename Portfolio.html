@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tuan Duc Chu</title>
+  <link rel="stylesheet" href="portfolio.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;1,8..60,300;1,8..60,400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- ===== SIDEBAR ===== -->
+  <aside id="sidebar">
+
+    <div id="photo-slot">
+      <img src="photo.jpg" alt="Tuan Duc Chu" onerror="this.style.display='none'; document.getElementById('photo-placeholder').style.display='flex';" />
+      <div id="photo-placeholder"><span>Photo</span></div>
+    </div>
+
+    <div id="sidebar-name">Tuan Duc Chu</div>
+    <div id="sidebar-sub">EE &amp; Applied Mathematics<br/>Schaefer School of Engineering &amp; Science<br/>Stevens Institute of Technology</div>
+
+    <nav id="sidebar-nav">
+      <a href="#about">About</a>
+      <a href="#experience">Research &amp; Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#courses">Courses</a>
+      <a href="#skills">Technical Skills</a>
+      <a href="#leadership">Leadership</a>
+      <a href="#awards">Awards &amp; Honors</a>
+      <a href="#languages">Languages</a>
+    </nav>
+
+    <div id="sidebar-contact">
+      <a href="mailto:tuanduc.hanoiams&#64;gmail.com">tuanduc.hanoiams&#64;gmail.com</a>
+      <a href="https://www.linkedin.com/in/tuanducchu" target="_blank">LinkedIn</a>
+      <a href="https://github.com/bunschar" target="_blank">GitHub</a>
+      <span>+1 201 772 1721</span>
+      <span>Hoboken, NJ</span>
+    </div>
+
+  </aside>
+
+  <!-- ===== MAIN CONTENT ===== -->
+  <main id="main">
+
+    <!-- Centered profile photo -->
+    <div id="main-photo-wrap">
+      <div id="main-photo-slot">
+        <img src="photo2.JPG" alt="Tuan Duc Chu" onerror="this.style.display='none'; document.getElementById('main-photo-ph').style.display='flex';" />
+        <div id="main-photo-ph"><span>Photo</span></div>
+      </div>
+    </div>
+
+    <section id="about">
+      <h2>About</h2>
+      <p>
+        Tuan Duc Chu is an Electrical Engineering / Applied Mathematics Honors Student interested in the intersection of semiconductor device design,
+        computer hardware architectures, and artificial intelligence performance.
+        His experience spans the full electronics stack: physical device nanoelectronics, embedded microelectronics, and classical hardware design.
+        He is driven by one question: <em>how do we build hardware that makes intelligent systems faster, smaller, and more efficient?</em>
+        Always looking to connect with people pushing the frontier of semiconductor and AI hardware.
+      </p>
+    </section>
+
+    <hr />
+
+    <section id="experience">
+      <h2>Research &amp; Experience</h2>
+
+      <div class="entry">
+        <div class="entry-header">
+          <span class="entry-title">Undergraduate Researcher</span>
+          <span class="entry-date">Jan 2025 &ndash; Present</span>
+        </div>
+        <div class="entry-org">Advanced Quantum Materials Laboratory, Stevens Institute of Technology</div>
+        <p class="entry-desc">Research and development of semiconductor devices, including memristor and EMR-based structures, leveraging spiking neural network-based machine learning alongside 2D semiconductor device characterization and simulation, with applications in neuromorphic computing acceleration and ultra-sensitive magnetic field sensing.</p>
+        <ul>
+          <li>Designed and characterized MoS&#8322; memristor and EMR device architectures using COMSOL Multiphysics, analyzing dielectric thickness effects on switching and Hall parameters.</li>
+          <li>Developed spiking neural network (SNN) models for digit recognition using 2D memristor material simulations, achieving 94.23% accuracy.</li>
+          <li>Operated CVD systems for controlled growth of 2D materials; performed optical characterization via photoluminescence and Raman spectroscopy.</li>
+          <li>Containerized applications including NEST Simulator, Jupyter Notebook, and TensorFlow using Docker.</li>
+          <li>Conducted literature reviews on quantum materials, neural networks, and neuromorphic computing; presented findings to research team and faculty.</li>
+        </ul>
+      </div>
+
+      <div class="entry">
+        <div class="entry-header">
+          <span class="entry-title">Lead Electrical Designer</span>
+          <span class="entry-date">Sep 2024 &ndash; Dec 2025</span>
+        </div>
+        <div class="entry-org">NASA RockSat Program, NASA New Jersey Space Grant Consortium</div>
+        <p class="entry-desc">Development of payload electrical and electronic systems with automation solutions for Atmospheric Inert Gas Retrieval, enabling high-speed atmospheric gas sampling at predetermined time intervals during a Venus upper-atmosphere sample return mission using a Terrier-Improved Orion / Malemute sounding rocket at Wallops Flight Facility.</p>
+        <ul>
+          <li>Designed electrical schematics and developed prototype PCBs using KiCad for an Atmospheric Inert Gas Retrieval payload.</li>
+          <li>Integrated electrical systems ensuring compliance with system and user requirements for a Terrier-Improved Orion / Malemute sounding rocket at Wallops Flight Facility.</li>
+          <li>Presented electrical sections at CoDR, PDR, CDR, STR, and FMSR progress reviews to NASA.</li>
+          <li>Led system-level integration with Mechanical Structures and Experiments teams to ensure mission success.</li>
+        </ul>
+      </div>
+
+      <div class="entry">
+        <div class="entry-header">
+          <span class="entry-title">Teaching Assistant &mdash; ENGR 245: Circuits and Systems</span>
+          <span class="entry-date">Jan 2026 &ndash; Present</span>
+        </div>
+        <div class="entry-org">Department of Electrical &amp; Computer Engineering, Stevens Institute of Technology &mdash; <em>Instructor: Dr. Mahmoud Al-Quzwini</em></div>
+        <ul>
+          <li>Leading lab sections of 30+ undergraduate students in hands-on analog circuit construction, measurement, and debugging each week.</li>
+          <li>Training students on bench instrumentation including oscilloscopes, function generators, digital multimeters, and spectrum analyzers for circuit characterization and signal analysis.</li>
+          <li>Supporting students in applying Kirchhoff's laws, Ohm's law, and nodal/mesh analysis to build and verify circuit behavior from schematic to physical implementation.</li>
+          <li>Guiding circuit simulation workflows using computer-based tools to evaluate and predict circuit behavior prior to hardware experimentation.</li>
+        </ul>
+      </div>
+    </section>
+
+    <hr />
+
+    <section id="projects">
+      <h2>Projects</h2>
+
+      <div class="project-category">Professional Projects</div>
+
+      <div class="entry">
+        <div class="entry-header">
+          <span class="entry-title">NASA RockSat-C/X: Atmospheric Inert Gas Retrieval</span>
+          <span class="entry-date">Sep 2024 &ndash; Dec 2025</span>
+        </div>
+        <ul class="project-bullets">
+          <li>Electrical Designer on a NASA-funded payload team to design, build, and launch a sounding rocket experiment on a Terrier-Improved Orion (apogee ~100km) at Wallops Flight Facility. <em>(RockSat-C, Sep 2024 &ndash; Aug 2025)</em></li>
+          <li>Electrical Designer on a NASA payload team to design, build, and launch a sounding rocket experiment on a Terrier-Improved Malemute (apogee 150&ndash;170km) at Wallops Flight Facility. <em>(RockSat-X, Sep 2025 &ndash; Dec 2025)</em></li>
+          <li>Member of the Software &amp; Electrical Team, collaborating with the Mechanical Structures Team and the Experiments Team.</li>
+        </ul>
+      </div>
+
+      <div class="entry">
+        <div class="entry-header">
+          <span class="entry-title">Neuromorphic Digit Recognition: Memristor-based Spiking Neural Networks</span>
+          <span class="entry-date">Apr &ndash; Aug 2025</span>
+        </div>
+        <ul class="project-bullets">
+          <li>Undergraduate Research Assistant of the Pinnacle Scholar Program, awarded $5,000 stipend to conduct Summer Session Research.</li>
+          <li>Developed machine learning models using spiking neural networks and 2D memristor materials simulation to achieve digit recognition with 94.23% accuracy.</li>
+          <li>Conducted literature reviews on quantum materials, neural networks and neuromorphic computing, presenting key findings to research team and faculty.</li>
+        </ul>
+      </div>
+
+      <div class="entry">
+        <div class="entry-header">
+          <span class="entry-title">Extraordinary Magnetoresistance (EMR) Device Design and Simulation</span>
+          <span class="entry-date">Dec 2025 &ndash; Present</span>
+        </div>
+      </div>
+
+      <div class="project-category" style="margin-top: 24px;">Personal Projects</div>
+      <div class="project-category-sub">Embedded &amp; Systems</div>
+
+      <div class="entry"><div class="entry-header"><span class="entry-title">IoT-Enabled Embedded Environmental Monitoring and Automated Irrigation System</span></div></div>
+      <div class="entry"><div class="entry-header"><span class="entry-title">Autonomous Surface Vehicle using Embedded AruCo Marker-Guided Algorithm</span></div></div>
+      <div class="entry"><div class="entry-header"><span class="entry-title">Smart Biomedical Pillow for Cranial and Cervical Alignment</span></div></div>
+      <div class="entry"><div class="entry-header"><span class="entry-title">Mechanical Design and Structural Integrity Analysis of a Recreational Playground Structure</span></div></div>
+
+      <div class="project-category-sub" style="margin-top: 14px;">VHDL</div>
+
+      <div class="entry"><div class="entry-header"><span class="entry-title">D Flip-Flop with Combinational Logic</span></div></div>
+      <div class="entry"><div class="entry-header"><span class="entry-title">Mealy and Moore Finite State Machines</span></div></div>
+      <div class="entry"><div class="entry-header"><span class="entry-title">LED Decoder</span></div></div>
+      <div class="entry"><div class="entry-header"><span class="entry-title">Hexcount Anode Manipulation</span></div></div>
+      <div class="entry"><div class="entry-header"><span class="entry-title">Four Half-Adder Interconnected Circuit</span></div></div>
+
+    </section>
+
+    <hr />
+
+    <section id="courses">
+      <h2>Courses</h2>
+      <div class="courses-grid">
+
+        <div class="course-col">
+          <div class="course-col-title"><strong>Mathematics</strong></div>
+          <ul>
+            <li><span class="code">MA 121</span> Differential Calculus</li>
+            <li><span class="code">MA 122</span> Integral Calculus</li>
+            <li><span class="code">MA 125</span> Vectors and Matrices</li>
+            <li><span class="code">MA 126</span> Multivariable Calculus I</li>
+            <li><span class="code">MA 221</span> Differential Equations</li>
+          </ul>
+          <div class="course-col-title" style="margin-top: 14px;"><strong>Physics &amp; Chemistry</strong></div>
+          <ul>
+            <li><span class="code">CH 115</span> General Chemistry I</li>
+            <li><span class="code">PEP 111</span> Mechanics</li>
+            <li><span class="code">PEP 112</span> Electricity &amp; Magnetism</li>
+            <li><span class="code">PEP 151</span> Introduction to Astronomy</li>
+          </ul>
+        </div>
+
+        <div class="course-col">
+          <div class="course-col-title"><strong>Electrical Engineering</strong></div>
+          <ul>
+            <li><span class="code">EE 250</span> Mathematics for Electrical Engineers</li>
+            <li><span class="code">EE 359</span> Electronic Circuits</li>
+            <li><span class="code">EE 390</span> Microprocessor Systems</li>
+            <li><span class="code">EE 489</span> Introduction to Electric Energy Systems</li>
+          </ul>
+          <div class="course-col-title" style="margin-top: 14px;"><strong>Computer Engineering</strong></div>
+          <ul>
+            <li><span class="code">CPE 487</span> Digital System Design</li>
+          </ul>
+        </div>
+
+        <div class="course-col">
+          <div class="course-col-title"><strong>Engineering</strong></div>
+          <ul>
+            <li><span class="code">ENGR 111</span> Introduction to Engineering Design &amp; Systems Thinking</li>
+            <li><span class="code">ENGR 116</span> Intro to Programming &amp; Algorithmic Thinking</li>
+            <li><span class="code">ENGR 122</span> Field Sustainable Systems &amp; Sensors</li>
+            <li><span class="code">ENGR 211</span> Statics and Introduction to Engineering Mechanics</li>
+            <li><span class="code">ENGR 212</span> Design of Dynamical Systems</li>
+            <li><span class="code">ENGR 234</span> Thermodynamics</li>
+            <li><span class="code">ENGR 245</span> Circuits and Systems</li>
+          </ul>
+        </div>
+
+      </div>
+    </section>
+
+    <hr />
+
+    <section id="skills">
+      <h2>Technical Skills</h2>
+      <table class="skills-table">
+        <tr><td>Programming &amp; HDL</td><td>Python, C++, Assembly, VHDL</td></tr>
+        <tr><td>EDA &amp; Embedded Systems</td><td>KiCad, Vivado, Keil, Micro-Cap</td></tr>
+        <tr><td>Modeling &amp; Scientific Computing</td><td>MATLAB, COMSOL Multiphysics, NEST</td></tr>
+        <tr><td>DevOps &amp; Version Control</td><td>Git, Docker</td></tr>
+        <tr><td>CAD / Mechanical Design</td><td>SolidWorks</td></tr>
+      </table>
+    </section>
+
+    <hr />
+
+    <section id="leadership">
+      <h2>Leadership &amp; Activities</h2>
+      <ul>
+        <li><strong>Institute of Electrical and Electronics Engineers (IEEE)</strong> &mdash; <em>Communications Chair</em></li>
+        <li><strong>ECE Department Advisory Council</strong> &mdash; <em>Advisor</em></li>
+        <li><strong>Vietnam National Robotics Team</strong>, GreenAms 6520 @ FRC &mdash; <em>Mechanical Designer</em></li>
+        <li><strong>Vietnamese Student Association</strong> &mdash; <em>External Relations Chair</em></li>
+      </ul>
+    </section>
+
+    <hr />
+
+    <section id="awards">
+      <h2>Awards &amp; Honors</h2>
+      <ul>
+        <li>Ann P. Neupauer Full-Tuition Merit Scholarship, Stevens Institute of Technology</li>
+        <li>Babbio &lsquo;66 Pinnacle Scholars Honors Program</li>
+        <li>$5,000 Research Award &mdash; Neuromorphic Digit Recognition Project</li>
+      </ul>
+    </section>
+
+    <hr />
+
+    <section id="languages">
+      <h2>Languages</h2>
+      <table class="skills-table">
+        <tr><td>English</td><td>Fluent</td></tr>
+        <tr><td>Vietnamese</td><td>Native</td></tr>
+        <tr><td>Russian</td><td>Conversational</td></tr>
+      </table>
+    </section>
+
+    <footer>
+      <p>Last updated: March 2026</p>
+    </footer>
+
+  </main>
+
+  <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+    const navLinks = document.qu
