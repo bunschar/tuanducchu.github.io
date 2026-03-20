@@ -52,7 +52,7 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  width: 460px;
+  width: 500px;
   height: 100vh;
   background: var(--navy-deep);
   display: flex;
